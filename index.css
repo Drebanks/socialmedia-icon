@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background : linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.overall .btn{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* float: left; */
+    border-radius: 50px;
+    background: #fff;
+    margin: 0 5px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0,0.1);
+    transition: all 0.3s ease-out; 
+
+}
+.overall .btn:hover{
+    width: 200px;
+
+}
+.overall .btn .icon{
+    display: inline-block;
+    text-align: center;
+    /* color: red; */
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    border-radius: 50%; 
+    line-height: 60px;
+    transition: all 0.3s ease-out; 
+}
+
+.overall .btn:nth-child(1):hover .icon{
+    background: #4267b2;
+}
+.overall .btn:nth-child(2):hover .icon{
+    background:#c32aa3 ;
+}
+.overall .btn:nth-child(3):hover .icon{
+    background: lightblue;
+}
+.overall .btn:nth-child(4):hover .icon{
+    background: green;
+}
+.overall .btn:nth-child(5):hover .icon{
+    background: red;
+}
+
+.overall .btn .icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.overall .btn:hover .icon i{
+    color: #fff;
+}
+
+.overall .btn #span{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-left: 15px;
+    transition: all 0.3s ease-out;
+}
+
+.overall .btn:nth-child(1) span{
+    color: #4267b2;
+}
+.overall .btn:nth-child(2) span{
+    color: #c32aa3;
+}
+.overall .btn:nth-child(3) span{
+    color: #1da1fe;
+}
+.overall .btn:nth-child(4) span{
+    color: green;
+}
+.overall .btn:nth-child(5) span{
+    color: red;
+}
+
